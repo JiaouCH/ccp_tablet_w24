@@ -248,6 +248,8 @@ a.active {
     height: 100%;
     grid-area: 1/1/-1/4;
     filter: opacity(25%);
+    -webkit-mask-image: radial-gradient(circle, black 50%, rgba(0, 0, 0, 0.5) 50%);
+    mask-image: radial-gradient(circle, black 50%, rgba(0, 0, 0, 0.5) 50%);
 }
 
 .grid-home p{
@@ -347,6 +349,11 @@ nav li {
     list-style-type: none;
   }
 
+.mask {
+    mask-image: url(../images/logo_background.webp);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+  }
 @media screen and (min-width: 850px) {
     .home_h1 {
         grid-area: 2/2/3/3;
