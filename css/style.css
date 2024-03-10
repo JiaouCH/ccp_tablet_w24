@@ -115,12 +115,6 @@ a:hover {
     background-color: #f5f5f5;
 }
 
-.photo1:hover, .photo2:hover, .photo3:hover {
-    border: 1.5px solid #d2d2d2;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-    transform: scale(1.1, 1.1);
-}
-
 .photo1 p, .photo2 p, .photo3 p {
     font-family: Papyrus, 'Lucida Sans Regular', 'Lucida Grande', 'Times New Roman', Times, serif;
     font-size: 0.7em;
@@ -352,10 +346,6 @@ nav li {
     transition: all .1s linear;
     list-style-type: none;
   }
-li:active {
-    box-shadow: 0 2px 0 #c3c3c3;
-    transform: translateY(3px);
-}
 
 @media screen and (min-width: 850px) {
     .home_h1 {
@@ -448,6 +438,15 @@ li:active {
     }
     .photo1 p, .photo2 p, .photo3 p {
         font-size: 1.1em;
+    }
+    .photo1:hover, .photo2:hover, .photo3:hover {
+        border: 1.5px solid #d2d2d2;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+        transform: scale(1.1, 1.1);
+    }
+    li:active {
+        box-shadow: 0 2px 0 #c3c3c3;
+        transform: translateY(3px);
     }
 }
   
